@@ -9,11 +9,11 @@ public class PlayerMovement : MonoBehaviour
 
     private CharacterController _characterController;
 
-    [SerializeField] private float movementSpeed = 5f;
-    [SerializeField] private float runSpeed = 10f;
-    [SerializeField] private Vector3 currentMoveAmount;
-    [SerializeField] private Vector3 currentRunAmount;
-
+    [SerializeField] public float movementSpeed = 5f;
+    [SerializeField] public float runSpeed = 10f;
+    [HideInInspector] public Vector3 currentMoveAmount;
+    [HideInInspector] public Vector3 currentRunAmount;
+    [SerializeField] public Vector3 appliedMovement;
     [SerializeField] private float rotateSpeed;
 
     [SerializeField] private float gravity = -9.8f;
@@ -27,12 +27,15 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float maxJumpHeight;
 
     [SerializeField] private float maxJumpTime;
-    
+
+    private Transform _camera;
+    private Quaternion _camRot;
     // Start is called before the first frame update
     void Start()
     {
         _characterController = gameObject.GetComponent<CharacterController>();
         _playerInputs = GetComponent<PlayerInputs>();
+        _camera = Camera.main.transform;
         SetJumpVariables();
     }
 
@@ -40,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //Time to apex its the moment when the player is at the highest point of his jump
         float timeToApex = maxJumpTime / 2;
-        gravity = (-2 * maxJumpHeight) / (timeToApex*timeToApex);
+        gravity = (-2 * maxJumpHeight) / Mathf.Pow(timeToApex, 2);
         initialJumpVelocity = (2 * maxJumpHeight) / timeToApex;
     }
 
@@ -49,17 +52,21 @@ public class PlayerMovement : MonoBehaviour
     {
        
         Rotation();
-        Movement();
         if (_playerInputs.isRunPressed)
         {
-            _characterController.Move(currentRunAmount * Time.deltaTime);
+            appliedMovement.x = currentRunAmount.x;
+            appliedMovement.z = currentRunAmount.z;
         }
         else
         {
-            _characterController.Move(currentMoveAmount * Time.deltaTime);
+            appliedMovement.x = currentMoveAmount.x;
+            appliedMovement.z = currentMoveAmount.z;
         }
+        
+        Vector3 movement = _camRot * appliedMovement;
+        _characterController.Move(movement * Time.deltaTime);
+        
         Gravity();
-      
         Jump();
     }
 
@@ -69,56 +76,61 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = true;
            
-            currentMoveAmount.y = initialJumpVelocity * 0.5f;
-            currentRunAmount.y = initialJumpVelocity * 0.5f;
+            currentMoveAmount.y = initialJumpVelocity;
+            appliedMovement.y = initialJumpVelocity;
+           
         }
         else if (!_playerInputs.isJumpPressed && isJumping && _characterController.isGrounded)
         {
             isJumping = false;
         }
     }
-
-    private void Movement()
-    {
-        //Get the player input from inputClass then apply speed
-
-        currentMoveAmount.x = _playerInputs.inputs.x * movementSpeed;
-        currentMoveAmount.z = _playerInputs.inputs.y* movementSpeed;
-        
-        currentRunAmount.x = _playerInputs.inputs.x * runSpeed;
-        currentRunAmount.z = _playerInputs.inputs.y * runSpeed;
-    }
-
+    
     private void Gravity()
     {
+        bool isFalling = currentMoveAmount.y <= 0.0f || !_playerInputs.isJumpPressed;
+        float fallMultiplier = 2.0f;
+        
         if (_characterController.isGrounded)
         {
             currentMoveAmount.y = groundedGravity;
-            currentRunAmount.y = groundedGravity;
+            appliedMovement.y = groundedGravity;
+        }
+        else if (isFalling) //Le joueur est entrain de tomber
+        {
+            float previousYVelocity = currentMoveAmount.y;
+            currentMoveAmount.y = currentMoveAmount.y + (gravity * fallMultiplier * Time.deltaTime);
+            appliedMovement.y = Mathf.Max((previousYVelocity + currentMoveAmount.y) * 0.5f, -20.0f);
         }
         else
         {
+            //On récupère la vélocité Y du player donc l'ancienne
             float previousYVelocity = currentMoveAmount.y;
-            float newYVelocity = currentMoveAmount.y + (gravity * Time.deltaTime);
-            float nextYVelocity = (previousYVelocity + newYVelocity) * 0.5f;
-            currentMoveAmount.y = nextYVelocity;
-            currentRunAmount.y = nextYVelocity;
+            // On calcule la nouvelle vélocité
+            currentMoveAmount.y = currentMoveAmount.y + (gravity * fallMultiplier * Time.deltaTime);
+            //On calcule la next velocité en combinant l'ancienne et la nouvelle
+            appliedMovement.y = (previousYVelocity + currentMoveAmount.y) * 0.5f;
         }
     }
 
     private void Rotation()
     {
-        //Get vector 3 angle axis from player movement
-        Vector3 positionToLookAt = new Vector3(currentMoveAmount.x, 0f, currentMoveAmount.z);
-
-
+        Vector3 camForward = _camera.forward;
+        camForward.y = 0f;
+        _camRot = Quaternion.LookRotation(camForward);
+        
+        //rotation actuel du joueur
         Quaternion currentRotation = transform.rotation;
+    
 
         if (_playerInputs.isMovementPressed)
         {
-            Quaternion desiredRot = Quaternion.LookRotation(positionToLookAt);
-            //Slerp the current player rotation with the desired rotation with speed + Timedeltatime
-            transform.rotation = Quaternion.Slerp(currentRotation, desiredRot, rotateSpeed * Time.deltaTime);
+            float targetAngle = Mathf.Atan2(_playerInputs.inputs.x, _playerInputs.inputs.y) * Mathf.Rad2Deg + _camera.eulerAngles.y;
+            
+            //Rotation créer avec le movement du joueur
+            Quaternion rot = Quaternion.Euler(0f, targetAngle, 0f);
+            
+            transform.rotation = Quaternion.Slerp(currentRotation, rot, rotateSpeed * Time.deltaTime);
         }
     }
 }

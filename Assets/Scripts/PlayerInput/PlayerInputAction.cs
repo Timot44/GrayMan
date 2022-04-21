@@ -41,6 +41,14 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Look"",
+                    ""type"": ""Value"",
+                    ""id"": ""509d0788-9f81-4df6-b3d4-141d73353ed7"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -153,6 +161,28 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
                     ""action"": ""Run"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8e9a70df-032d-43e6-bb04-1c139245dbf1"",
+                    ""path"": ""<Mouse>/delta"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Look"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3f59f3d4-f5dc-4fb1-ba93-d601e23fa2a2"",
+                    ""path"": ""<Gamepad>/rightStick"",
+                    ""interactions"": """",
+                    ""processors"": ""ScaleVector2(x=10,y=10)"",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Look"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -187,6 +217,7 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
         m_PlayerInput_Movement = m_PlayerInput.FindAction("Movement", throwIfNotFound: true);
         m_PlayerInput_Jump = m_PlayerInput.FindAction("Jump", throwIfNotFound: true);
         m_PlayerInput_Run = m_PlayerInput.FindAction("Run", throwIfNotFound: true);
+        m_PlayerInput_Look = m_PlayerInput.FindAction("Look", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -239,6 +270,7 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
     private readonly InputAction m_PlayerInput_Movement;
     private readonly InputAction m_PlayerInput_Jump;
     private readonly InputAction m_PlayerInput_Run;
+    private readonly InputAction m_PlayerInput_Look;
     public struct PlayerInputActions
     {
         private @PlayerInputAction m_Wrapper;
@@ -246,6 +278,7 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
         public InputAction @Movement => m_Wrapper.m_PlayerInput_Movement;
         public InputAction @Jump => m_Wrapper.m_PlayerInput_Jump;
         public InputAction @Run => m_Wrapper.m_PlayerInput_Run;
+        public InputAction @Look => m_Wrapper.m_PlayerInput_Look;
         public InputActionMap Get() { return m_Wrapper.m_PlayerInput; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -264,6 +297,9 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
                 @Run.started -= m_Wrapper.m_PlayerInputActionsCallbackInterface.OnRun;
                 @Run.performed -= m_Wrapper.m_PlayerInputActionsCallbackInterface.OnRun;
                 @Run.canceled -= m_Wrapper.m_PlayerInputActionsCallbackInterface.OnRun;
+                @Look.started -= m_Wrapper.m_PlayerInputActionsCallbackInterface.OnLook;
+                @Look.performed -= m_Wrapper.m_PlayerInputActionsCallbackInterface.OnLook;
+                @Look.canceled -= m_Wrapper.m_PlayerInputActionsCallbackInterface.OnLook;
             }
             m_Wrapper.m_PlayerInputActionsCallbackInterface = instance;
             if (instance != null)
@@ -277,6 +313,9 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
                 @Run.started += instance.OnRun;
                 @Run.performed += instance.OnRun;
                 @Run.canceled += instance.OnRun;
+                @Look.started += instance.OnLook;
+                @Look.performed += instance.OnLook;
+                @Look.canceled += instance.OnLook;
             }
         }
     }
@@ -304,5 +343,6 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
         void OnMovement(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnRun(InputAction.CallbackContext context);
+        void OnLook(InputAction.CallbackContext context);
     }
 }

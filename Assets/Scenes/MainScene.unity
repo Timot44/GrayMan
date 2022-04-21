@@ -207,6 +207,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_08 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3318689441606926373, guid: d3ee913ed32937344b0587e70dc777a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3ee913ed32937344b0587e70dc777a2, type: 3}
 --- !u!4 &26112829 stripped
@@ -226,6 +231,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Tree_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4032642331417584291, guid: e133dac167ef59c40b7678ba58107c6a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4376657132610222105, guid: e133dac167ef59c40b7678ba58107c6a,
         type: 3}
@@ -301,6 +311,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -448,6 +463,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Rock_Pile_Forest_Moss_10 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2146431531174499849, guid: c8134dd87be4906419f13922ddc5bf4f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8134dd87be4906419f13922ddc5bf4f, type: 3}
 --- !u!4 &66953240 stripped
@@ -538,6 +558,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
 --- !u!4 &77821310 stripped
@@ -557,6 +582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Daffodil_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123141273917358956, guid: 13dd10d6717971d4ea9125d158299b1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8930885862814177750, guid: 13dd10d6717971d4ea9125d158299b1e,
         type: 3}
@@ -647,6 +677,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Forest_Mountain_Moss_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 200864487664385347, guid: 512b72c73a22e904d87662ebca8eb1e1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 685195320120420345, guid: 512b72c73a22e904d87662ebca8eb1e1,
         type: 3}
@@ -787,6 +822,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
 --- !u!4 &127198429 stripped
@@ -806,6 +846,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -897,6 +942,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Birch_Tree_06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636820298107493410, guid: a2bd798ea40c7e341aa61ad124d95342,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3448647613925869208, guid: a2bd798ea40c7e341aa61ad124d95342,
         type: 3}
@@ -1043,6 +1093,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
 --- !u!4 &148076813 stripped
@@ -1117,6 +1172,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Forest_Mountain_Moss_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752586314121210879, guid: 034023ff02a37fc47aab6bc6c49bf15b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 034023ff02a37fc47aab6bc6c49bf15b, type: 3}
@@ -1208,6 +1268,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Hyacinth_04 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2954823824624447290, guid: 194e9111af0c33840a49d573f2b26952,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 194e9111af0c33840a49d573f2b26952, type: 3}
 --- !u!4 &168971312 stripped
@@ -1227,6 +1292,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Forest_Mountain_Moss_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 200864487664385347, guid: 512b72c73a22e904d87662ebca8eb1e1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 685195320120420345, guid: 512b72c73a22e904d87662ebca8eb1e1,
         type: 3}
@@ -1388,6 +1458,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -1479,6 +1554,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -1499,6 +1579,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Daffodil_03 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123141273917358956, guid: 13dd10d6717971d4ea9125d158299b1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8930885862814177750, guid: 13dd10d6717971d4ea9125d158299b1e,
         type: 3}
@@ -1589,6 +1674,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -1736,6 +1826,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Birch_Tree_05
       objectReference: {fileID: 0}
+    - target: {fileID: 9154215057541871321, guid: 2554008d6447a2540b44e55f0c0b576e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2554008d6447a2540b44e55f0c0b576e, type: 3}
 --- !u!4 &248445352 stripped
@@ -1826,6 +1921,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
 --- !u!4 &251713610 stripped
@@ -1845,6 +1945,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -1936,6 +2041,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -2098,6 +2208,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -2195,6 +2310,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -2271,6 +2391,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Hyacinth_04
       objectReference: {fileID: 0}
+    - target: {fileID: 2954823824624447290, guid: 194e9111af0c33840a49d573f2b26952,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 194e9111af0c33840a49d573f2b26952, type: 3}
 --- !u!4 &359003912 stripped
@@ -2290,6 +2415,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -2437,6 +2567,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Rock_Moss_Grown_09
       objectReference: {fileID: 0}
+    - target: {fileID: 4577034113271871886, guid: 24457fdf8e66c3c49b7599931e0fdcb2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24457fdf8e66c3c49b7599931e0fdcb2, type: 3}
 --- !u!4 &363995061 stripped
@@ -2460,7 +2595,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 375174563}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATHS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2502,6 +2637,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -2664,6 +2804,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Hyacinth_04 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2954823824624447290, guid: 194e9111af0c33840a49d573f2b26952,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 194e9111af0c33840a49d573f2b26952, type: 3}
 --- !u!4 &402393756 stripped
@@ -2738,6 +2883,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Tree_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846767348704259191, guid: 273b8f4150121d249ac7e2fd11da7005,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 273b8f4150121d249ac7e2fd11da7005, type: 3}
@@ -2829,6 +2979,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
 --- !u!4 &428903674 stripped
@@ -2848,6 +3003,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Daffodil_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123141273917358956, guid: 13dd10d6717971d4ea9125d158299b1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8930885862814177750, guid: 13dd10d6717971d4ea9125d158299b1e,
         type: 3}
@@ -2939,6 +3099,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Tree_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4032642331417584291, guid: e133dac167ef59c40b7678ba58107c6a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4376657132610222105, guid: e133dac167ef59c40b7678ba58107c6a,
         type: 3}
       propertyPath: m_RootOrder
@@ -3014,6 +3179,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Lake_Ground_04
       objectReference: {fileID: 0}
+    - target: {fileID: 268118961561806861, guid: 66072c42e7f38924f90a2ea3e36cc606,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 644960786271204023, guid: 66072c42e7f38924f90a2ea3e36cc606,
         type: 3}
       propertyPath: m_RootOrder
@@ -3068,6 +3238,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5319147200080114589, guid: 66072c42e7f38924f90a2ea3e36cc606,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66072c42e7f38924f90a2ea3e36cc606, type: 3}
@@ -3159,6 +3334,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
 --- !u!4 &447501183 stripped
@@ -3249,6 +3429,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
 --- !u!4 &454198382 stripped
@@ -3268,6 +3453,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Forest_Mountain_Moss_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 200864487664385347, guid: 512b72c73a22e904d87662ebca8eb1e1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 685195320120420345, guid: 512b72c73a22e904d87662ebca8eb1e1,
         type: 3}
@@ -3423,6 +3613,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -3514,6 +3709,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -3534,6 +3734,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -3696,6 +3901,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_08 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3318689441606926373, guid: d3ee913ed32937344b0587e70dc777a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3ee913ed32937344b0587e70dc777a2, type: 3}
 --- !u!4 &490856059 stripped
@@ -3721,6 +3931,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Daffodil_03 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123141273917358956, guid: 13dd10d6717971d4ea9125d158299b1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8930885862814177750, guid: 13dd10d6717971d4ea9125d158299b1e,
         type: 3}
@@ -3882,6 +4097,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -3902,6 +4122,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Birch_Tree_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636820298107493410, guid: a2bd798ea40c7e341aa61ad124d95342,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3448647613925869208, guid: a2bd798ea40c7e341aa61ad124d95342,
         type: 3}
@@ -3978,6 +4203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Meadow_07 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2357419356555822539, guid: cf22a2db10f09a34495e9f83913738c8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3169668576073457521, guid: cf22a2db10f09a34495e9f83913738c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -4052,6 +4282,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Meadow_07 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2357419356555822539, guid: cf22a2db10f09a34495e9f83913738c8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3169668576073457521, guid: cf22a2db10f09a34495e9f83913738c8,
         type: 3}
@@ -4177,6 +4412,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Tree_10 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6846767348704259191, guid: 273b8f4150121d249ac7e2fd11da7005,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 273b8f4150121d249ac7e2fd11da7005, type: 3}
 --- !u!4 &543753059 stripped
@@ -4196,6 +4436,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Daffodil_03 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123141273917358956, guid: 13dd10d6717971d4ea9125d158299b1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8930885862814177750, guid: 13dd10d6717971d4ea9125d158299b1e,
         type: 3}
@@ -4287,6 +4532,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_11 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
       propertyPath: m_RootOrder
@@ -4377,6 +4627,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Meadow_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2357419356555822539, guid: cf22a2db10f09a34495e9f83913738c8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3169668576073457521, guid: cf22a2db10f09a34495e9f83913738c8,
         type: 3}
@@ -4523,6 +4778,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Hyacinth_04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2954823824624447290, guid: 194e9111af0c33840a49d573f2b26952,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 194e9111af0c33840a49d573f2b26952, type: 3}
 --- !u!4 &623498869 stripped
@@ -4542,6 +4802,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Daffodil_03 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123141273917358956, guid: 13dd10d6717971d4ea9125d158299b1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8930885862814177750, guid: 13dd10d6717971d4ea9125d158299b1e,
         type: 3}
@@ -4633,6 +4898,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_11 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
       propertyPath: m_RootOrder
@@ -4723,6 +4993,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Forest_Mountain_Moss_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 200864487664385347, guid: 512b72c73a22e904d87662ebca8eb1e1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 685195320120420345, guid: 512b72c73a22e904d87662ebca8eb1e1,
         type: 3}
@@ -4884,6 +5159,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_05
       objectReference: {fileID: 0}
+    - target: {fileID: 7749838506462483410, guid: d354c41a99993964baca0254487708d1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d354c41a99993964baca0254487708d1, type: 3}
 --- !u!4 &704702581 stripped
@@ -4907,7 +5187,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 713770179}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TREES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5034,6 +5314,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_08 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3318689441606926373, guid: d3ee913ed32937344b0587e70dc777a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3ee913ed32937344b0587e70dc777a2, type: 3}
 --- !u!4 &741156443 stripped
@@ -5123,6 +5408,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_15 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -5215,6 +5505,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_08
       objectReference: {fileID: 0}
+    - target: {fileID: 3318689441606926373, guid: d3ee913ed32937344b0587e70dc777a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3ee913ed32937344b0587e70dc777a2, type: 3}
 --- !u!4 &751108624 stripped
@@ -5234,6 +5529,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Tree_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4032642331417584291, guid: e133dac167ef59c40b7678ba58107c6a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4376657132610222105, guid: e133dac167ef59c40b7678ba58107c6a,
         type: 3}
@@ -5380,6 +5680,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -5400,6 +5705,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Daffodil_03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123141273917358956, guid: 13dd10d6717971d4ea9125d158299b1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8930885862814177750, guid: 13dd10d6717971d4ea9125d158299b1e,
         type: 3}
@@ -5546,6 +5856,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Tree_10 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6846767348704259191, guid: 273b8f4150121d249ac7e2fd11da7005,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 273b8f4150121d249ac7e2fd11da7005, type: 3}
 --- !u!4 &786182379 stripped
@@ -5636,6 +5951,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7749838506462483410, guid: d354c41a99993964baca0254487708d1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d354c41a99993964baca0254487708d1, type: 3}
 --- !u!4 &786660925 stripped
@@ -5655,6 +5975,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -5823,6 +6148,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09
       objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
 --- !u!4 &819935547 stripped
@@ -5912,6 +6242,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_15 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -6004,6 +6339,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -6024,6 +6364,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Tree_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4032642331417584291, guid: e133dac167ef59c40b7678ba58107c6a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4376657132610222105, guid: e133dac167ef59c40b7678ba58107c6a,
         type: 3}
@@ -6100,6 +6445,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_11 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
       propertyPath: m_RootOrder
@@ -6160,6 +6510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Birch_Tree_06 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636820298107493410, guid: a2bd798ea40c7e341aa61ad124d95342,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3448647613925869208, guid: a2bd798ea40c7e341aa61ad124d95342,
         type: 3}
@@ -6306,6 +6661,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -6324,7 +6684,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 882444149}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ROCKS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6439,6 +6799,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_05 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7749838506462483410, guid: d354c41a99993964baca0254487708d1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d354c41a99993964baca0254487708d1, type: 3}
 --- !u!4 &884033582 stripped
@@ -6458,6 +6823,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -6550,6 +6920,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Forest_Mountain_Moss_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 200864487664385347, guid: 512b72c73a22e904d87662ebca8eb1e1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 685195320120420345, guid: 512b72c73a22e904d87662ebca8eb1e1,
         type: 3}
       propertyPath: m_RootOrder
@@ -6639,6 +7014,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -6732,9 +7112,9 @@ GameObject:
   - component: {fileID: 909560129}
   - component: {fileID: 909560130}
   - component: {fileID: 909560131}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6747,10 +7127,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909560126}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.035, z: 0}
+  m_LocalPosition: {x: 0, y: 0.76, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1152951931}
+  - {fileID: 2134672156}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6802,6 +7183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputs: {x: 0, y: 0}
+  lookInputs: {x: 0, y: 0}
   isJumpPressed: 0
   isMovementPressed: 0
   isRunPressed: 0
@@ -6821,13 +7203,14 @@ MonoBehaviour:
   runSpeed: 10
   currentMoveAmount: {x: 0, y: 0, z: 0}
   currentRunAmount: {x: 0, y: 0, z: 0}
-  rotateSpeed: 15
+  appliedMovement: {x: 0, y: 0, z: 0}
+  rotateSpeed: 20
   gravity: -9.8
   groundedGravity: -0.5
   isJumping: 0
   initialJumpVelocity: 0
-  maxJumpHeight: 3
-  maxJumpTime: 0.5
+  maxJumpHeight: 5
+  maxJumpTime: 1.25
 --- !u!143 &909560131
 CharacterController:
   m_ObjectHideFlags: 0
@@ -6841,9 +7224,9 @@ CharacterController:
   serializedVersion: 2
   m_Height: 2
   m_Radius: 0.5
-  m_SlopeLimit: 45
+  m_SlopeLimit: 90
   m_StepOffset: 0.3
-  m_SkinWidth: 0.08
+  m_SkinWidth: 0.05
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &963335074
@@ -6912,6 +7295,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Rock_Pile_Forest_Moss_10 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2146431531174499849, guid: c8134dd87be4906419f13922ddc5bf4f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8134dd87be4906419f13922ddc5bf4f, type: 3}
@@ -7009,6 +7397,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
 --- !u!4 &965519420 stripped
@@ -7029,6 +7422,7 @@ GameObject:
   - component: {fileID: 1006219530}
   - component: {fileID: 1006219529}
   - component: {fileID: 1006219532}
+  - component: {fileID: 1006219534}
   - component: {fileID: 1006219533}
   m_Layer: 0
   m_Name: Main Camera
@@ -7095,8 +7489,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006219528}
-  m_LocalRotation: {x: 0.14521313, y: 0, z: 0, w: 0.98940045}
-  m_LocalPosition: {x: 0, y: 3.0349998, z: -5}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.66, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7168,6 +7562,23 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &1006219534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006219528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979fb6f9905e4e34881c6a0dbc2ae90a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cinemachineVirtualCameraFollowTarget: {fileID: 2134672155}
+  topClamp: 30
+  cameraRotationSpeed: 10
+  bottomClamp: -30
+  cameraAngleOverride: 12
 --- !u!1001 &1030076075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7234,6 +7645,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Tree_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846767348704259191, guid: 273b8f4150121d249ac7e2fd11da7005,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 273b8f4150121d249ac7e2fd11da7005, type: 3}
@@ -7325,6 +7741,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -7343,7 +7764,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1097451135}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: --ENVIRONEMENT--
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7380,6 +7801,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -7542,6 +7968,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -7633,6 +8064,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
 --- !u!4 &1134125242 stripped
@@ -7652,6 +8088,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Meadow_Path_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082612214144964267, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8890356699427785745, guid: d5b8de414112a004a82d0437b5f7a780,
         type: 3}
@@ -7730,6 +8171,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8082612214144964267, guid: d5b8de414112a004a82d0437b5f7a780,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082612214144964267, guid: d5b8de414112a004a82d0437b5f7a780,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -7801,7 +8247,7 @@ GameObject:
   - component: {fileID: 1152951931}
   - component: {fileID: 1152951934}
   - component: {fileID: 1152951933}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7954,6 +8400,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -8045,6 +8496,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_05 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7749838506462483410, guid: d354c41a99993964baca0254487708d1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d354c41a99993964baca0254487708d1, type: 3}
 --- !u!4 &1181034300 stripped
@@ -8119,6 +8575,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Rock_Moss_Grown_09
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577034113271871886, guid: 24457fdf8e66c3c49b7599931e0fdcb2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24457fdf8e66c3c49b7599931e0fdcb2, type: 3}
@@ -8210,6 +8671,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_05 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7749838506462483410, guid: d354c41a99993964baca0254487708d1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d354c41a99993964baca0254487708d1, type: 3}
 --- !u!4 &1203168199 stripped
@@ -8284,6 +8750,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Rock_Moss_Grown_11 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4500668923149335752, guid: a524090786e7ba545bd5ce3d24c9a3fb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a524090786e7ba545bd5ce3d24c9a3fb, type: 3}
@@ -8375,6 +8846,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_05
       objectReference: {fileID: 0}
+    - target: {fileID: 7749838506462483410, guid: d354c41a99993964baca0254487708d1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d354c41a99993964baca0254487708d1, type: 3}
 --- !u!4 &1222825097 stripped
@@ -8464,6 +8940,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_15 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -8556,6 +9037,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Hyacinth_04
       objectReference: {fileID: 0}
+    - target: {fileID: 2954823824624447290, guid: 194e9111af0c33840a49d573f2b26952,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 194e9111af0c33840a49d573f2b26952, type: 3}
 --- !u!4 &1246384050 stripped
@@ -8631,6 +9117,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Tree_10 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6846767348704259191, guid: 273b8f4150121d249ac7e2fd11da7005,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 273b8f4150121d249ac7e2fd11da7005, type: 3}
 --- !u!4 &1247955834 stripped
@@ -8650,6 +9141,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Daffodil_03 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123141273917358956, guid: 13dd10d6717971d4ea9125d158299b1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8930885862814177750, guid: 13dd10d6717971d4ea9125d158299b1e,
         type: 3}
@@ -8740,6 +9236,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Forest_Mountain_Moss_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 200864487664385347, guid: 512b72c73a22e904d87662ebca8eb1e1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 685195320120420345, guid: 512b72c73a22e904d87662ebca8eb1e1,
         type: 3}
@@ -8886,6 +9387,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
 --- !u!4 &1290150804 stripped
@@ -8910,8 +9416,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1297593187}
   - component: {fileID: 1297593186}
+  - component: {fileID: 1297593188}
   m_Layer: 0
-  m_Name: CM vcam1
+  m_Name: CM_Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8936,7 +9443,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 909560127}
-  m_Follow: {fileID: 909560127}
+  m_Follow: {fileID: 2134672156}
   m_Lens:
     FieldOfView: 90
     OrthographicSize: 5
@@ -8959,14 +9466,44 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297593185}
-  m_LocalRotation: {x: 0.14521313, y: 0, z: 0, w: 0.98940045}
-  m_LocalPosition: {x: 0, y: 3.0349998, z: -5}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.66, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1797056580}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1297593188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297593185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e501d18bb52cf8c40b1853ca4904654f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CollideAgainst:
+    serializedVersion: 2
+    m_Bits: 64
+  m_IgnoreTag: Player
+  m_TransparentLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_MinimumDistanceFromTarget: 0.1
+  m_AvoidObstacles: 1
+  m_DistanceLimit: 0
+  m_MinimumOcclusionTime: 0
+  m_CameraRadius: 0.1
+  m_Strategy: 0
+  m_MaximumEffort: 4
+  m_SmoothingTime: 0.2
+  m_Damping: 0.77
+  m_DampingWhenOccluded: 0.72
+  m_OptimalTargetDistance: 0
 --- !u!1001 &1302461667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8978,6 +9515,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -9069,6 +9611,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Tree_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4032642331417584291, guid: e133dac167ef59c40b7678ba58107c6a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4376657132610222105, guid: e133dac167ef59c40b7678ba58107c6a,
         type: 3}
@@ -9293,6 +9840,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Rock_Pile_Forest_Moss_10
       objectReference: {fileID: 0}
+    - target: {fileID: 2146431531174499849, guid: c8134dd87be4906419f13922ddc5bf4f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8134dd87be4906419f13922ddc5bf4f, type: 3}
 --- !u!4 &1321292632 stripped
@@ -9312,6 +9864,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -9474,6 +10031,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -9550,6 +10112,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Rock_Pile_Forest_Moss_05
       objectReference: {fileID: 0}
+    - target: {fileID: 1090505329258949676, guid: 9a91bc2b0a89c4748a0c5b940bd461a7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a91bc2b0a89c4748a0c5b940bd461a7, type: 3}
 --- !u!4 &1349613431 stripped
@@ -9625,6 +10192,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Tree_10 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6846767348704259191, guid: 273b8f4150121d249ac7e2fd11da7005,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 273b8f4150121d249ac7e2fd11da7005, type: 3}
 --- !u!4 &1359643855 stripped
@@ -9699,6 +10271,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Rock_Pile_Forest_Moss_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2146431531174499849, guid: c8134dd87be4906419f13922ddc5bf4f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8134dd87be4906419f13922ddc5bf4f, type: 3}
@@ -9790,6 +10367,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -9876,6 +10458,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Forest_Mountain_Moss_02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5752586314121210879, guid: 034023ff02a37fc47aab6bc6c49bf15b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 034023ff02a37fc47aab6bc6c49bf15b, type: 3}
 --- !u!4 &1383136280 stripped
@@ -9895,6 +10482,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Daffodil_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123141273917358956, guid: 13dd10d6717971d4ea9125d158299b1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8930885862814177750, guid: 13dd10d6717971d4ea9125d158299b1e,
         type: 3}
@@ -9985,6 +10577,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Tree_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4032642331417584291, guid: e133dac167ef59c40b7678ba58107c6a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4376657132610222105, guid: e133dac167ef59c40b7678ba58107c6a,
         type: 3}
@@ -10126,6 +10723,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Forest_Mountain_Moss_02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5752586314121210879, guid: 034023ff02a37fc47aab6bc6c49bf15b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 034023ff02a37fc47aab6bc6c49bf15b, type: 3}
 --- !u!4 &1428533300 stripped
@@ -10216,6 +10818,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
 --- !u!4 &1464360890 stripped
@@ -10305,6 +10912,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_15 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -10397,6 +11009,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_05 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7749838506462483410, guid: d354c41a99993964baca0254487708d1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d354c41a99993964baca0254487708d1, type: 3}
 --- !u!4 &1479586894 stripped
@@ -10487,6 +11104,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_10
       objectReference: {fileID: 0}
+    - target: {fileID: 8954726919292774957, guid: eae42a57b046b1a42a79ae6319bccca3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eae42a57b046b1a42a79ae6319bccca3, type: 3}
 --- !u!4 &1486284227 stripped
@@ -10506,6 +11128,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Birch_Tree_06 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636820298107493410, guid: a2bd798ea40c7e341aa61ad124d95342,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3448647613925869208, guid: a2bd798ea40c7e341aa61ad124d95342,
         type: 3}
@@ -10652,6 +11279,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Hyacinth_04 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2954823824624447290, guid: 194e9111af0c33840a49d573f2b26952,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 194e9111af0c33840a49d573f2b26952, type: 3}
 --- !u!4 &1492940883 stripped
@@ -10671,6 +11303,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -10823,6 +11460,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Forest_Mountain_Moss_02
       objectReference: {fileID: 0}
+    - target: {fileID: 5752586314121210879, guid: 034023ff02a37fc47aab6bc6c49bf15b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 034023ff02a37fc47aab6bc6c49bf15b, type: 3}
 --- !u!4 &1519662139 stripped
@@ -10842,6 +11484,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Tree_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4032642331417584291, guid: e133dac167ef59c40b7678ba58107c6a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4376657132610222105, guid: e133dac167ef59c40b7678ba58107c6a,
         type: 3}
@@ -10988,6 +11635,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
 --- !u!4 &1550642149 stripped
@@ -11077,6 +11729,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
@@ -11168,6 +11825,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
 --- !u!4 &1560185235 stripped
@@ -11187,6 +11849,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Forest_Mountain_Moss_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 200864487664385347, guid: 512b72c73a22e904d87662ebca8eb1e1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 685195320120420345, guid: 512b72c73a22e904d87662ebca8eb1e1,
         type: 3}
@@ -11333,6 +12000,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Tree_10 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6846767348704259191, guid: 273b8f4150121d249ac7e2fd11da7005,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 273b8f4150121d249ac7e2fd11da7005, type: 3}
 --- !u!4 &1575201530 stripped
@@ -11352,6 +12024,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -11499,6 +12176,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Rock_Pile_Forest_Moss_05
       objectReference: {fileID: 0}
+    - target: {fileID: 1090505329258949676, guid: 9a91bc2b0a89c4748a0c5b940bd461a7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a91bc2b0a89c4748a0c5b940bd461a7, type: 3}
 --- !u!4 &1598161893 stripped
@@ -11518,6 +12200,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Daffodil_03 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123141273917358956, guid: 13dd10d6717971d4ea9125d158299b1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8930885862814177750, guid: 13dd10d6717971d4ea9125d158299b1e,
         type: 3}
@@ -11664,6 +12351,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Forest_Mountain_Moss_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5752586314121210879, guid: 034023ff02a37fc47aab6bc6c49bf15b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 034023ff02a37fc47aab6bc6c49bf15b, type: 3}
 --- !u!4 &1601121109 stripped
@@ -11683,6 +12375,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Meadow_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 138836365270009319, guid: 7baba197ce36c92439b423eabaad3737,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 767562868964138845, guid: 7baba197ce36c92439b423eabaad3737,
         type: 3}
@@ -11752,6 +12449,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Daffodil_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123141273917358956, guid: 13dd10d6717971d4ea9125d158299b1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8930885862814177750, guid: 13dd10d6717971d4ea9125d158299b1e,
         type: 3}
@@ -11903,6 +12605,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Forest_Mountain_Moss_02
       objectReference: {fileID: 0}
+    - target: {fileID: 5752586314121210879, guid: 034023ff02a37fc47aab6bc6c49bf15b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 034023ff02a37fc47aab6bc6c49bf15b, type: 3}
 --- !u!4 &1675340130 stripped
@@ -11993,6 +12700,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -12013,6 +12725,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -12170,6 +12887,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Forest_Mountain_Moss_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5752586314121210879, guid: 034023ff02a37fc47aab6bc6c49bf15b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 034023ff02a37fc47aab6bc6c49bf15b, type: 3}
 --- !u!4 &1690089585 stripped
@@ -12189,6 +12911,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -12351,6 +13078,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_10 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8954726919292774957, guid: eae42a57b046b1a42a79ae6319bccca3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eae42a57b046b1a42a79ae6319bccca3, type: 3}
 --- !u!4 &1734930040 stripped
@@ -12440,6 +13172,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_15 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -12532,6 +13269,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_08 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3318689441606926373, guid: d3ee913ed32937344b0587e70dc777a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3ee913ed32937344b0587e70dc777a2, type: 3}
 --- !u!4 &1742877787 stripped
@@ -12607,6 +13349,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Tree_10 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6846767348704259191, guid: 273b8f4150121d249ac7e2fd11da7005,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 273b8f4150121d249ac7e2fd11da7005, type: 3}
 --- !u!4 &1756867740 stripped
@@ -12626,6 +13373,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Daffodil_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123141273917358956, guid: 13dd10d6717971d4ea9125d158299b1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8930885862814177750, guid: 13dd10d6717971d4ea9125d158299b1e,
         type: 3}
@@ -12772,6 +13524,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_10
       objectReference: {fileID: 0}
+    - target: {fileID: 8954726919292774957, guid: eae42a57b046b1a42a79ae6319bccca3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eae42a57b046b1a42a79ae6319bccca3, type: 3}
 --- !u!4 &1768488488 stripped
@@ -12862,6 +13619,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_05 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7749838506462483410, guid: d354c41a99993964baca0254487708d1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d354c41a99993964baca0254487708d1, type: 3}
 --- !u!4 &1772625568 stripped
@@ -12881,6 +13643,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Forest_Mountain_Moss_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 200864487664385347, guid: 512b72c73a22e904d87662ebca8eb1e1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 685195320120420345, guid: 512b72c73a22e904d87662ebca8eb1e1,
         type: 3}
@@ -13027,6 +13794,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Rock_Moss_Grown_11 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4500668923149335752, guid: a524090786e7ba545bd5ce3d24c9a3fb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a524090786e7ba545bd5ce3d24c9a3fb, type: 3}
 --- !u!4 &1775295539 stripped
@@ -13046,6 +13818,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -13208,6 +13985,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
 --- !u!4 &1796022942 stripped
@@ -13226,7 +14008,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1797056580}
   - component: {fileID: 1797056583}
-  - component: {fileID: 1797056582}
   - component: {fileID: 1797056581}
   m_Layer: 0
   m_Name: cm
@@ -13258,78 +14039,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1797056579}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
+  m_Script: {fileID: 11500000, guid: bd6043bde05a7fc4cba197d06915c1e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0, y: 0.5, z: 0}
-  m_LookaheadTime: 0
-  m_LookaheadSmoothing: 0
-  m_LookaheadIgnoreY: 0
-  m_HorizontalDamping: 0
-  m_VerticalDamping: 0
-  m_ScreenX: 0.5
-  m_ScreenY: 0.5
-  m_DeadZoneWidth: 0
-  m_DeadZoneHeight: 0
-  m_SoftZoneWidth: 0.8
-  m_SoftZoneHeight: 0.8
-  m_BiasX: 0
-  m_BiasY: 0
-  m_CenterOnActivate: 1
---- !u!114 &1797056582
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1797056579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9384ab8608cdc3d479fe89cd51eed48f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 2, z: -5}
-  m_XDamping: 1
-  m_YDamping: 0.3
-  m_ZDamping: 0.3
-  m_AngularDampingMode: 0
-  m_PitchDamping: 0
-  m_YawDamping: 0
-  m_RollDamping: 0
-  m_AngularDamping: 0
-  m_Heading:
-    m_Definition: 2
-    m_VelocityFilterStrength: 4
-    m_Bias: 0
-  m_RecenterToTargetHeading:
-    m_enabled: 1
-    m_WaitTime: 1
-    m_RecenteringTime: 2
-    m_LegacyHeadingDefinition: -1
-    m_LegacyVelocityFilterStrength: -1
-  m_XAxis:
-    Value: 0
-    m_SpeedMode: 0
-    m_MaxSpeed: 500
-    m_AccelTime: 0.1
-    m_DecelTime: 0.1
-    m_InputAxisName: Mouse X
-    m_InputAxisValue: 0
-    m_InvertInput: 1
-    m_MinValue: -180
-    m_MaxValue: 180
-    m_Wrap: 1
-    m_Recentering:
-      m_enabled: 0
-      m_WaitTime: 1
-      m_RecenteringTime: 2
-      m_LegacyHeadingDefinition: -1
-      m_LegacyVelocityFilterStrength: -1
-  m_LegacyRadius: 3.4028235e+38
-  m_LegacyHeightOffset: 3.4028235e+38
-  m_LegacyHeadingBias: 3.4028235e+38
-  m_HeadingIsSlave: 0
+  Damping: {x: 0, y: 0, z: 0}
+  ShoulderOffset: {x: 0, y: 1.5, z: 0}
+  VerticalArmLength: 0.4
+  CameraSide: 1
+  CameraDistance: 4
+  CameraCollisionFilter:
+    serializedVersion: 2
+    m_Bits: 1
+  IgnoreTag: Player
+  CameraRadius: 0.2
 --- !u!114 &1797056583
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -13349,10 +14071,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 375174563}
     m_Modifications:
+    - target: {fileID: 2357419356555822538, guid: cf22a2db10f09a34495e9f83913738c8,
+        type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2357419356555822539, guid: cf22a2db10f09a34495e9f83913738c8,
         type: 3}
       propertyPath: m_Name
       value: PP_Meadow_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2357419356555822539, guid: cf22a2db10f09a34495e9f83913738c8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3169668576073457521, guid: cf22a2db10f09a34495e9f83913738c8,
         type: 3}
@@ -13493,6 +14225,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -13584,6 +14321,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_05 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7749838506462483410, guid: d354c41a99993964baca0254487708d1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d354c41a99993964baca0254487708d1, type: 3}
 --- !u!4 &1825355634 stripped
@@ -13603,6 +14345,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Birch_Tree_06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636820298107493410, guid: a2bd798ea40c7e341aa61ad124d95342,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3448647613925869208, guid: a2bd798ea40c7e341aa61ad124d95342,
         type: 3}
@@ -13749,6 +14496,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -13769,6 +14521,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -13860,6 +14617,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -14022,6 +14784,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
 --- !u!4 &1862382907 stripped
@@ -14041,6 +14808,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -14203,6 +14975,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
 --- !u!4 &1869359120 stripped
@@ -14222,6 +14999,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -14313,6 +15095,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Meadow_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 138836365270009319, guid: 7baba197ce36c92439b423eabaad3737,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 767562868964138845, guid: 7baba197ce36c92439b423eabaad3737,
         type: 3}
@@ -14459,6 +15246,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -14477,7 +15269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1887827566}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MOUNTAIN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14595,6 +15387,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Hyacinth_04 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2954823824624447290, guid: 194e9111af0c33840a49d573f2b26952,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 194e9111af0c33840a49d573f2b26952, type: 3}
 --- !u!4 &1903682791 stripped
@@ -14684,6 +15481,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
@@ -14775,6 +15577,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_05 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7749838506462483410, guid: d354c41a99993964baca0254487708d1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d354c41a99993964baca0254487708d1, type: 3}
 --- !u!4 &1929841669 stripped
@@ -14864,6 +15671,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_15 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -14956,6 +15768,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_08 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3318689441606926373, guid: d3ee913ed32937344b0587e70dc777a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3ee913ed32937344b0587e70dc777a2, type: 3}
 --- !u!4 &1935626668 stripped
@@ -15046,6 +15863,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -15066,6 +15888,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Daffodil_03 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123141273917358956, guid: 13dd10d6717971d4ea9125d158299b1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8930885862814177750, guid: 13dd10d6717971d4ea9125d158299b1e,
         type: 3}
@@ -15227,6 +16054,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Hyacinth_04 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2954823824624447290, guid: 194e9111af0c33840a49d573f2b26952,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 194e9111af0c33840a49d573f2b26952, type: 3}
 --- !u!4 &1945285851 stripped
@@ -15302,6 +16134,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Rock_Moss_Grown_11
       objectReference: {fileID: 0}
+    - target: {fileID: 4500668923149335752, guid: a524090786e7ba545bd5ce3d24c9a3fb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a524090786e7ba545bd5ce3d24c9a3fb, type: 3}
 --- !u!4 &1961680340 stripped
@@ -15319,7 +16156,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2003753452}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GRASS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15476,6 +16313,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Daffodil_03 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8123141273917358956, guid: 13dd10d6717971d4ea9125d158299b1e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8930885862814177750, guid: 13dd10d6717971d4ea9125d158299b1e,
         type: 3}
       propertyPath: m_RootOrder
@@ -15565,6 +16407,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Birch_Tree_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636820298107493410, guid: a2bd798ea40c7e341aa61ad124d95342,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3448647613925869208, guid: a2bd798ea40c7e341aa61ad124d95342,
         type: 3}
@@ -15711,6 +16558,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_08 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3318689441606926373, guid: d3ee913ed32937344b0587e70dc777a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3ee913ed32937344b0587e70dc777a2, type: 3}
 --- !u!4 &2032763611 stripped
@@ -15801,6 +16653,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Hyacinth_04
       objectReference: {fileID: 0}
+    - target: {fileID: 2954823824624447290, guid: 194e9111af0c33840a49d573f2b26952,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 194e9111af0c33840a49d573f2b26952, type: 3}
 --- !u!4 &2052518960 stripped
@@ -15890,6 +16747,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_15 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -15982,6 +16844,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -16073,6 +16940,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
@@ -16149,6 +17021,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Birch_Tree_05
       objectReference: {fileID: 0}
+    - target: {fileID: 9154215057541871321, guid: 2554008d6447a2540b44e55f0c0b576e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2554008d6447a2540b44e55f0c0b576e, type: 3}
 --- !u!4 &2064697249 stripped
@@ -16168,6 +17045,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Lake_Ground_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 268118961561806861, guid: 66072c42e7f38924f90a2ea3e36cc606,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 644960786271204023, guid: 66072c42e7f38924f90a2ea3e36cc606,
         type: 3}
@@ -16223,6 +17105,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5319147200080114589, guid: 66072c42e7f38924f90a2ea3e36cc606,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66072c42e7f38924f90a2ea3e36cc606, type: 3}
@@ -16307,6 +17194,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_05 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7749838506462483410, guid: d354c41a99993964baca0254487708d1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d354c41a99993964baca0254487708d1, type: 3}
@@ -16398,6 +17290,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_09 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7570405467501425085, guid: 0ab22827d0f3f0b40a97e9430d684283,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab22827d0f3f0b40a97e9430d684283, type: 3}
 --- !u!4 &2068575276 stripped
@@ -16472,6 +17369,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Rock_Moss_Grown_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4500668923149335752, guid: a524090786e7ba545bd5ce3d24c9a3fb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a524090786e7ba545bd5ce3d24c9a3fb, type: 3}
@@ -16569,6 +17471,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Purple_05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7749838506462483410, guid: d354c41a99993964baca0254487708d1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d354c41a99993964baca0254487708d1, type: 3}
 --- !u!4 &2081554799 stripped
@@ -16659,6 +17566,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Grass_15 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2304540294968618315, guid: b8217b9c1183a5144b666d1dd63980c4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8217b9c1183a5144b666d1dd63980c4, type: 3}
 --- !u!4 &2087366260 stripped
@@ -16678,8 +17590,7 @@ GameObject:
   - component: {fileID: 2122945136}
   - component: {fileID: 2122945139}
   - component: {fileID: 2122945138}
-  - component: {fileID: 2122945137}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16700,19 +17611,6 @@ Transform:
   m_Father: {fileID: 1152951931}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2122945137
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2122945135}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2122945138
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16773,6 +17671,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Tree_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4032642331417584291, guid: e133dac167ef59c40b7678ba58107c6a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4376657132610222105, guid: e133dac167ef59c40b7678ba58107c6a,
         type: 3}
@@ -16919,6 +17822,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Hyacinth_04 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2954823824624447290, guid: 194e9111af0c33840a49d573f2b26952,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 194e9111af0c33840a49d573f2b26952, type: 3}
 --- !u!4 &2130582005 stripped
@@ -16927,6 +17835,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2130582004}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2134672155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2134672156}
+  m_Layer: 3
+  m_Name: FollowTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2134672156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134672155}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 909560127}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2136979006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16938,6 +17876,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Grass_11 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439904337943108576, guid: ef62619642b0df743b22dd5120c6ac4d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1778994357615247706, guid: ef62619642b0df743b22dd5120c6ac4d,
         type: 3}
@@ -17093,6 +18036,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PP_Mushroom_Fantasy_Orange_10 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954726919292774957, guid: eae42a57b046b1a42a79ae6319bccca3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eae42a57b046b1a42a79ae6319bccca3, type: 3}
