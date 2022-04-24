@@ -143,7 +143,7 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""d8cab5de-d3d7-4ff4-911d-f85c713fbd70"",
-                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""path"": ""<Gamepad>/leftStickPress"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
