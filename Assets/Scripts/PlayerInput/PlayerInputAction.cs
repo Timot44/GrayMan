@@ -49,6 +49,14 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Punch"",
+                    ""type"": ""Button"",
+                    ""id"": ""6f9d942a-c017-437d-90ab-366f5559742c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -183,6 +191,28 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
                     ""action"": ""Look"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""785c68eb-a5b9-4679-8f58-3103333181b3"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Punch"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a4b7f16d-5d70-4947-85bf-e5b099cb8997"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Punch"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -218,6 +248,7 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
         m_PlayerInput_Jump = m_PlayerInput.FindAction("Jump", throwIfNotFound: true);
         m_PlayerInput_Run = m_PlayerInput.FindAction("Run", throwIfNotFound: true);
         m_PlayerInput_Look = m_PlayerInput.FindAction("Look", throwIfNotFound: true);
+        m_PlayerInput_Punch = m_PlayerInput.FindAction("Punch", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -271,6 +302,7 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
     private readonly InputAction m_PlayerInput_Jump;
     private readonly InputAction m_PlayerInput_Run;
     private readonly InputAction m_PlayerInput_Look;
+    private readonly InputAction m_PlayerInput_Punch;
     public struct PlayerInputActions
     {
         private @PlayerInputAction m_Wrapper;
@@ -279,6 +311,7 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
         public InputAction @Jump => m_Wrapper.m_PlayerInput_Jump;
         public InputAction @Run => m_Wrapper.m_PlayerInput_Run;
         public InputAction @Look => m_Wrapper.m_PlayerInput_Look;
+        public InputAction @Punch => m_Wrapper.m_PlayerInput_Punch;
         public InputActionMap Get() { return m_Wrapper.m_PlayerInput; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -300,6 +333,9 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
                 @Look.started -= m_Wrapper.m_PlayerInputActionsCallbackInterface.OnLook;
                 @Look.performed -= m_Wrapper.m_PlayerInputActionsCallbackInterface.OnLook;
                 @Look.canceled -= m_Wrapper.m_PlayerInputActionsCallbackInterface.OnLook;
+                @Punch.started -= m_Wrapper.m_PlayerInputActionsCallbackInterface.OnPunch;
+                @Punch.performed -= m_Wrapper.m_PlayerInputActionsCallbackInterface.OnPunch;
+                @Punch.canceled -= m_Wrapper.m_PlayerInputActionsCallbackInterface.OnPunch;
             }
             m_Wrapper.m_PlayerInputActionsCallbackInterface = instance;
             if (instance != null)
@@ -316,6 +352,9 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
                 @Look.started += instance.OnLook;
                 @Look.performed += instance.OnLook;
                 @Look.canceled += instance.OnLook;
+                @Punch.started += instance.OnPunch;
+                @Punch.performed += instance.OnPunch;
+                @Punch.canceled += instance.OnPunch;
             }
         }
     }
@@ -344,5 +383,6 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
         void OnJump(InputAction.CallbackContext context);
         void OnRun(InputAction.CallbackContext context);
         void OnLook(InputAction.CallbackContext context);
+        void OnPunch(InputAction.CallbackContext context);
     }
 }

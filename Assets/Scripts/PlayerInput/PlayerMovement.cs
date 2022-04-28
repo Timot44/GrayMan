@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private float groundedGravity = -0.5f;
 
-    [Header("Jump variables")] public bool isJumping = false;
+    [Header("Jump variables")] public bool isJumping;
 
     [SerializeField] private float initialJumpVelocity;
 

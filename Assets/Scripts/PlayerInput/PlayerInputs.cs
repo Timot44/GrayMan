@@ -16,9 +16,9 @@ public class PlayerInputs : MonoBehaviour
     public bool isMovementPressed;
     
     public bool isRunPressed;
-    // Start is called before the first frame update
-    
-    
+
+
+    public bool isPunchPressed;
     private void Awake()
     {
         _playerMovement = GetComponent<PlayerMovement>();
@@ -33,6 +33,14 @@ public class PlayerInputs : MonoBehaviour
         _playerInputAction.PlayerInput.Look.started += LookOnstarted ;
         _playerInputAction.PlayerInput.Look.performed += LookOnstarted ;
         _playerInputAction.PlayerInput.Look.canceled += LookOnstarted;
+        _playerInputAction.PlayerInput.Punch.started += PunchOnstarted;
+        _playerInputAction.PlayerInput.Punch.performed += PunchOnstarted;
+        _playerInputAction.PlayerInput.Punch.canceled += PunchOnstarted;
+    }
+
+    private void PunchOnstarted(InputAction.CallbackContext context)
+    {
+        isPunchPressed = context.ReadValueAsButton();
     }
 
     private void LookOnstarted(InputAction.CallbackContext context)
@@ -49,13 +57,14 @@ public class PlayerInputs : MonoBehaviour
     {
         isJumpPressed = context.ReadValueAsButton();
     }
+    
 
     private void MovementOnstarted(InputAction.CallbackContext context)
     {
         inputs = context.ReadValue<Vector2>();
         //Get the player input from inputClass then apply speed
         _playerMovement.currentMoveAmount.x = inputs.x *  _playerMovement.movementSpeed;
-        _playerMovement.currentMoveAmount.z = inputs.y*  _playerMovement.movementSpeed;
+        _playerMovement.currentMoveAmount.z = inputs.y *  _playerMovement.movementSpeed;
         
         _playerMovement.currentRunAmount.x = inputs.x *  _playerMovement.runSpeed;
         _playerMovement.currentRunAmount.z = inputs.y *  _playerMovement.runSpeed;
