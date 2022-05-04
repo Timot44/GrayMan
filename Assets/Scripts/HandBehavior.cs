@@ -20,15 +20,28 @@ public class HandBehavior : MonoBehaviour
     [SerializeField] private PlayerPunch playerPunch;
 
     [SerializeField] private LayerMask collisionLayerMask;
-    // Start is called before the first frame update
-    void Start()
+
+    [SerializeField] private float time;
+
+    private Vector3 velocity;
+    public bool isReturning;
+
+    public MeshRenderer meshRenderer;
+
+    private SphereCollider _sphereCollider;
+
+    [Header("TIMERS")] [SerializeField] private float timeInSecondsForHandsReturn = 0.45f;
+    [SerializeField] private float smoothTimeInSecondsHands = 0.2f;
+    
+    void Awake()
     {
         _handLocalPosition = gameObject.transform.localPosition;
         _handParent = transform.parent;
         _timeBetweenRewindPunch = maxTimeBetweenRewind;
         _handRigidbody = GetComponent<Rigidbody>();
+        _sphereCollider = GetComponent<SphereCollider>();
+        meshRenderer = GetComponent<MeshRenderer>();
     }
-    // Update is called once per frame
     void Update()
     {
         if (isActivated)
@@ -40,28 +53,50 @@ public class HandBehavior : MonoBehaviour
                 _timeBetweenRewindPunch = maxTimeBetweenRewind;
             }
         }
-        
+
+        if (isReturning)
+        {
+            if (time < timeInSecondsForHandsReturn)
+            {
+                gameObject.transform.position = Vector3.SmoothDamp(gameObject.transform.position, _handParent.position, ref velocity, smoothTimeInSecondsHands, 100f, Time.deltaTime);
+                _sphereCollider.enabled = false;
+                time += Time.deltaTime;
+            }
+            else
+            {
+                StartCoroutine(ResetPunch());
+            }
+        }
        
     }
 
-    void ReturnPunch()
+   private IEnumerator ResetPunch()
     {
-        var handTransform = gameObject.transform;
-        
-        handTransform.parent = _handParent;
-        handTransform.localPosition = _handLocalPosition;
-        
-        _handRigidbody.velocity =  Vector3.zero;
+        var hand = gameObject;
+        meshRenderer.enabled = false;
+        hand.transform.parent = _handParent;
+        hand.transform.localPosition = _handLocalPosition;
+        time = 0f;
+        playerPunch.isPunched = false;
+        isReturning = false;
+        _sphereCollider.enabled = true;
+        yield break;
+    }
+
+    private void ReturnPunch()
+    {
+        _handRigidbody.velocity = Vector3.zero;
         _handRigidbody.isKinematic = true;
         isActivated = false;
-        playerPunch.isPunched = false;
+        isReturning = true;
     }
     
     private void OnCollisionEnter(Collision other)
     {
-        if (other.collider.gameObject.layer == collisionLayerMask)
+        if (other.collider.gameObject.CompareTag("Colliding"))
         {
             ReturnPunch();
+            _timeBetweenRewindPunch = maxTimeBetweenRewind;
         }
     }
 }
