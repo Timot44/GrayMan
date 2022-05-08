@@ -32,7 +32,9 @@ public class HandBehavior : MonoBehaviour
 
     [Header("TIMERS")] [SerializeField] private float timeInSecondsForHandsReturn = 0.45f;
     [SerializeField] private float smoothTimeInSecondsHands = 0.2f;
-    
+
+
+    public TrailRenderer trailRenderer;
     void Awake()
     {
         _handLocalPosition = gameObject.transform.localPosition;
@@ -40,7 +42,6 @@ public class HandBehavior : MonoBehaviour
         _timeBetweenRewindPunch = maxTimeBetweenRewind;
         _handRigidbody = GetComponent<Rigidbody>();
         _sphereCollider = GetComponent<SphereCollider>();
-        meshRenderer = GetComponent<MeshRenderer>();
     }
     void Update()
     {
@@ -80,6 +81,7 @@ public class HandBehavior : MonoBehaviour
         playerPunch.isPunched = false;
         isReturning = false;
         _sphereCollider.enabled = true;
+        trailRenderer.emitting = false;
         yield break;
     }
 

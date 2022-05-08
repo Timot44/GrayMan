@@ -54,6 +54,7 @@ public class PlayerPunch : MonoBehaviour
         handRigidbody.AddForce(shootPoint.forward * punchPower, ForceMode.Impulse);
         handBehavior.isActivated = true;
         handBehavior.meshRenderer.enabled = true;
+        handBehavior.trailRenderer.emitting = true;
         yield break;
     }
 }

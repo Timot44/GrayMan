@@ -121,6 +121,7 @@ public class PlayerMovement : MonoBehaviour
         else if (isFalling) //Le joueur est entrain de tomber
         {
             float previousYVelocity = currentMoveAmount.y;
+            _emissionModule.enabled = false;
             currentMoveAmount.y = currentMoveAmount.y + (gravity * fallMultiplier * Time.deltaTime);
             appliedMovement.y = Mathf.Max((previousYVelocity + currentMoveAmount.y) * 0.5f, -20.0f);
         }
