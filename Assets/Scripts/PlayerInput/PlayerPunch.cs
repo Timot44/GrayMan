@@ -28,17 +28,17 @@ public class PlayerPunch : MonoBehaviour
 
         if (!isPunched && !handsArray[0].isReturning)
         {
-            StartCoroutine(StartPunch(handsArray[0], handsRigidbody[0]));
+            StartCoroutine(StartPunchCoroutine(handsArray[0], handsRigidbody[0]));
             isPunched = true;
         }
         else if (!handsArray[1].isReturning && isPunched)
         {
-            StartCoroutine(StartPunch(handsArray[1], handsRigidbody[1]));
+            StartCoroutine(StartPunchCoroutine(handsArray[1], handsRigidbody[1]));
         }
       
     }
 
-    private IEnumerator StartPunch(HandBehavior handBehavior, Rigidbody handRigidbody)
+    private IEnumerator StartPunchCoroutine(HandBehavior handBehavior, Rigidbody handRigidbody)
     {
         handRigidbody.isKinematic = false;
         handRigidbody.transform.parent = null;
