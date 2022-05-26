@@ -8,20 +8,11 @@ public class PlayerPunch : MonoBehaviour
 
 
     [SerializeField] private HandBehavior[] handsArray;
-    private Rigidbody[] handsRigidbody = new Rigidbody[2];
+    [SerializeField] private Rigidbody[] handsRigidbody = new Rigidbody[2];
     [SerializeField] private float punchPower;
     
     public bool isPunched;
     [SerializeField] private Transform shootPoint;
-    // Start is called before the first frame update
-    void Start()
-    {
-        for (int i = 0; i < handsArray.Length; i++)
-        {
-            handsRigidbody[i] = handsArray[i].gameObject.GetComponent<Rigidbody>();
-        }
-    }
-
     // Update is called once per frame
     void Update()
     {

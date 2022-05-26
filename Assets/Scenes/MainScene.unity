@@ -2131,7 +2131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isActivated: 0
   maxTimeBetweenRewind: 0.4
-  playerPunch: {fileID: 807662622}
+  playerPunch: {fileID: 909560132}
   collisionLayerMask:
     serializedVersion: 2
     m_Bits: 64
@@ -6814,7 +6814,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 807662621}
-  - component: {fileID: 807662622}
   m_Layer: 3
   m_Name: Hands
   m_TagString: Untagged
@@ -6838,25 +6837,6 @@ Transform:
   m_Father: {fileID: 1093075690}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &807662622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 807662620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ff81cc05e0dc345add99804cbfefe1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerInputs: {fileID: 909560129}
-  handsArray:
-  - {fileID: 237106777}
-  - {fileID: 1523291721}
-  punchPower: 15
-  isPunched: 0
-  shootPoint: {fileID: 909560127}
 --- !u!1001 &819935546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7967,6 +7947,7 @@ GameObject:
   - component: {fileID: 909560128}
   - component: {fileID: 909560129}
   - component: {fileID: 909560130}
+  - component: {fileID: 909560132}
   - component: {fileID: 909560131}
   m_Layer: 3
   m_Name: Player
@@ -8092,6 +8073,28 @@ CharacterController:
   m_SkinWidth: 0.05
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &909560132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909560126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ff81cc05e0dc345add99804cbfefe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInputs: {fileID: 909560129}
+  handsArray:
+  - {fileID: 237106777}
+  - {fileID: 1523291721}
+  handsRigidbody:
+  - {fileID: 237106776}
+  - {fileID: 1523291719}
+  punchPower: 15
+  isPunched: 0
+  shootPoint: {fileID: 909560127}
 --- !u!1001 &963335074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12979,7 +12982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isActivated: 0
   maxTimeBetweenRewind: 0.4
-  playerPunch: {fileID: 807662622}
+  playerPunch: {fileID: 909560132}
   collisionLayerMask:
     serializedVersion: 2
     m_Bits: 64
