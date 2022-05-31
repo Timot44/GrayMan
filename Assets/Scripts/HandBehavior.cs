@@ -19,8 +19,6 @@ public class HandBehavior : MonoBehaviour
 
     [SerializeField] private PlayerPunch playerPunch;
 
-    [SerializeField] private LayerMask collisionLayerMask;
-
     [SerializeField] private float time;
 
     private Vector3 velocity;
