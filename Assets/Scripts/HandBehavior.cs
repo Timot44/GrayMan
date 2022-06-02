@@ -15,7 +15,7 @@ public class HandBehavior : MonoBehaviour
     [SerializeField]
     private float maxTimeBetweenRewind = 2f;
 
-    private Rigidbody _handRigidbody;
+    public Rigidbody handRigidbody;
 
     [SerializeField] private PlayerPunch playerPunch;
 
@@ -38,7 +38,7 @@ public class HandBehavior : MonoBehaviour
         _handLocalPosition = gameObject.transform.localPosition;
         _handParent = transform.parent;
         _timeBetweenRewindPunch = maxTimeBetweenRewind;
-        _handRigidbody = GetComponent<Rigidbody>();
+        handRigidbody = GetComponent<Rigidbody>();
         _sphereCollider = GetComponent<SphereCollider>();
     }
     void Update()
@@ -85,8 +85,8 @@ public class HandBehavior : MonoBehaviour
 
     private void ReturnPunch()
     {
-        _handRigidbody.velocity = Vector3.zero;
-        _handRigidbody.isKinematic = true;
+        handRigidbody.velocity = Vector3.zero;
+        handRigidbody.isKinematic = true;
         isActivated = false;
         isReturning = true;
     }

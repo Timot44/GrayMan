@@ -5,8 +5,6 @@ using UnityEngine;
 public class PlayerPunch : MonoBehaviour
 {
     [SerializeField] private PlayerInputs playerInputs;
-
-
     [SerializeField] private HandBehavior[] handsArray;
     [SerializeField] private Rigidbody[] handsRigidbody = new Rigidbody[2];
     [SerializeField] private float punchPower;
@@ -19,10 +17,10 @@ public class PlayerPunch : MonoBehaviour
     
     [SerializeField] private Color currentPunchTrailColor;
     [SerializeField] private Color[] punchTrailColorArray;
-    
-    void Update()
-    {
 
+    [SerializeField] private HandBehavior currentPunch;
+   private void Update()
+    {
         if (playerInputs.isPunchPressed)
         {
             currentPunchTimerInSeconds += Time.deltaTime;
@@ -34,7 +32,7 @@ public class PlayerPunch : MonoBehaviour
         
         if (isPunchLoading && !playerInputs.isPunchPressed)
         {
-            PunchThrow();
+            PunchThrow(currentPunch);
             currentPunchTimerInSeconds = 0;
             isPunchLoading = false;
         }
@@ -42,7 +40,18 @@ public class PlayerPunch : MonoBehaviour
 
     private void LoadPunch(float currentTime)
     {
-
+        if (!currentPunch)
+        {
+            foreach (var handBehavior in handsArray)
+            {
+                if (!handBehavior.isActivated)
+                {
+                    currentPunch = handBehavior;
+                    break;
+                }
+            }
+        }
+      
         if (currentTime >= timerInSecondsPunchPower[0] && currentTime < timerInSecondsPunchPower[1])
         {
             currentPunchTrailColor = punchTrailColorArray[0];
@@ -61,17 +70,22 @@ public class PlayerPunch : MonoBehaviour
     }
     
 
-    private void PunchThrow()
+    private void PunchThrow(HandBehavior handBehavior)
     {
-        if (!isPunched && !handsArray[0].isReturning)
+        if (!handBehavior.isReturning && handBehavior)
         {
-            StartCoroutine(StartPunchCoroutine(handsArray[0], handsRigidbody[0]));
-            isPunched = true;
+            StartCoroutine(StartPunchCoroutine(handBehavior, handBehavior.handRigidbody));
         }
-        else if (!handsArray[1].isReturning && isPunched)
-        {
-            StartCoroutine(StartPunchCoroutine(handsArray[1], handsRigidbody[1]));
-        }
+
+        /* if (!isPunched && !handsArray[0].isReturning)
+       {
+           StartCoroutine(StartPunchCoroutine(handsArray[0], handsRigidbody[0]));
+           isPunched = true;
+       }
+       else if (!handsArray[1].isReturning && isPunched)
+       {
+           StartCoroutine(StartPunchCoroutine(handsArray[1], handsRigidbody[1]));
+       }*/
       
     }
 
@@ -83,6 +97,7 @@ public class PlayerPunch : MonoBehaviour
         handBehavior.isActivated = true;
         handBehavior.meshRenderer.enabled = true;
         UpdatePunchTrailColor(currentPunchTrailColor, handBehavior);
+        currentPunch = null;
         yield break;
     }
 

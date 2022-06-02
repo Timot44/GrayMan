@@ -8090,10 +8090,11 @@ MonoBehaviour:
   - {fileID: 237106776}
   - {fileID: 1523291719}
   punchPower: 15
+  isPunchLoading: 0
   isPunched: 0
   shootPoint: {fileID: 909560127}
   timerInSecondsPunchPower:
-  - 0.2
+  - 0
   - 0.5
   - 1
   currentPunchTimerInSeconds: 0
