@@ -32,9 +32,13 @@ public class PlayerPunch : MonoBehaviour
         
         if (isPunchLoading && !playerInputs.isPunchPressed)
         {
-            PunchThrow(currentPunch);
-            currentPunchTimerInSeconds = 0;
-            isPunchLoading = false;
+            if (currentPunch != null)
+            {
+                PunchThrow(currentPunch);
+                currentPunchTimerInSeconds = 0;
+                isPunchLoading = false;
+            }
+           
         }
     }
 
@@ -76,17 +80,7 @@ public class PlayerPunch : MonoBehaviour
         {
             StartCoroutine(StartPunchCoroutine(handBehavior, handBehavior.handRigidbody));
         }
-
-        /* if (!isPunched && !handsArray[0].isReturning)
-       {
-           StartCoroutine(StartPunchCoroutine(handsArray[0], handsRigidbody[0]));
-           isPunched = true;
-       }
-       else if (!handsArray[1].isReturning && isPunched)
-       {
-           StartCoroutine(StartPunchCoroutine(handsArray[1], handsRigidbody[1]));
-       }*/
-      
+        
     }
 
     private IEnumerator StartPunchCoroutine(HandBehavior handBehavior, Rigidbody handRigidbody)

@@ -70,18 +70,7 @@ public class PlayerInputs : MonoBehaviour
         _playerMovement.currentRunAmount.z = inputs.y *  _playerMovement.runSpeed;
         isMovementPressed = inputs.x != 0 || inputs.y != 0;
     }
-
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     private void OnEnable()
     {
         _playerInputAction.Enable();

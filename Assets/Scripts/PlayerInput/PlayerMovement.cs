@@ -8,20 +8,21 @@ public class PlayerMovement : MonoBehaviour
     private PlayerInputs _playerInputs;
 
     private CharacterController _characterController;
-
+    [Header("MOVEMENT VARIABLES")]
     [SerializeField] public float movementSpeed = 5f;
     [SerializeField] public float runSpeed = 10f;
     [HideInInspector] public Vector3 currentMoveAmount;
     [HideInInspector] public Vector3 currentRunAmount;
-   
+    [SerializeField] private float smoothTime = 0.2f;
+    [SerializeField] private float timeInSecondsMovement = 1.5f;
     [SerializeField] public Vector3 appliedMovement;
     [SerializeField] private float rotateSpeed;
 
+    [Header("GRAVITY VARIABLES")]
     [SerializeField] private float gravity = -9.8f;
-
     [SerializeField] private float groundedGravity = -0.5f;
 
-    [Header("Jump variables")] public bool isJumping;
+    [Header("JUMP VARIABLES")] public bool isJumping;
 
     [SerializeField] private float initialJumpVelocity;
 
@@ -32,13 +33,12 @@ public class PlayerMovement : MonoBehaviour
     private Transform _camera;
     private Quaternion _camRot;
     private Vector3 _velocity;
-    [SerializeField] private float smoothTime = 0.2f;
-    [SerializeField] private float timeInSecondsMovement = 1.5f;
+    
     [SerializeField] private ParticleSystem footStepParticle;
     [SerializeField] private ParticleSystem jumpLaunchParticle;
     private ParticleSystem.EmissionModule _emissionModule;
-    // Start is called before the first frame update
-    void Start()
+ 
+  private void Start()
     {
         _characterController = gameObject.GetComponent<CharacterController>();
         _playerInputs = GetComponent<PlayerInputs>();
@@ -54,43 +54,41 @@ public class PlayerMovement : MonoBehaviour
         gravity = (-2 * maxJumpHeight) / Mathf.Pow(timeToApex, 2);
         initialJumpVelocity = (2 * maxJumpHeight) / timeToApex;
     }
-
-    // Update is called once per frame
-    void Update()
+    
+    private  void Update()
     {
-       
         Rotation();
         
         if (_playerInputs.isRunPressed)
         {
-           /* appliedMovement.x = currentRunAmount.x;
-            appliedMovement.z = currentRunAmount.z;*/
-           appliedMovement = Vector3.SmoothDamp(appliedMovement, currentRunAmount, ref _velocity, smoothTime, runSpeed, Time.deltaTime * timeInSecondsMovement);
+            appliedMovement = Vector3.SmoothDamp(appliedMovement, currentRunAmount, ref _velocity, smoothTime, runSpeed, Time.fixedDeltaTime * timeInSecondsMovement);
         }
         else
         {
-           /*appliedMovement.x = currentMoveAmount.x;
-           appliedMovement.z = currentMoveAmount.z;*/
-           appliedMovement = Vector3.SmoothDamp(appliedMovement, currentMoveAmount, ref _velocity, smoothTime, movementSpeed, Time.deltaTime * timeInSecondsMovement);
+            appliedMovement = Vector3.SmoothDamp(appliedMovement, currentMoveAmount, ref _velocity, smoothTime, movementSpeed, Time.fixedDeltaTime * timeInSecondsMovement);
         }
         
         
         Vector3 movement = _camRot * appliedMovement;
-       
-        
         _characterController.Move(movement * Time.deltaTime);
+        
         if (_playerInputs.isMovementPressed)
         {   
             _emissionModule.enabled = true;
         }
         else
         {
-            _emissionModule.enabled = false;
-            appliedMovement = Vector3.zero;
-            _velocity = Vector3.zero;
+          ResetPlayerVel();
         }
         Gravity();
         Jump();
+    }
+
+    private void ResetPlayerVel()
+    {
+        _emissionModule.enabled = false;
+        appliedMovement = Vector3.zero;
+        _velocity = Vector3.zero;
     }
 
     private void Jump()

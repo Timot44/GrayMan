@@ -2131,6 +2131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isActivated: 0
   maxTimeBetweenRewind: 0.4
+  handRigidbody: {fileID: 0}
   playerPunch: {fileID: 909560132}
   time: 0
   isReturning: 0
@@ -8040,6 +8041,8 @@ MonoBehaviour:
   runSpeed: 11
   currentMoveAmount: {x: 0, y: 0, z: 0}
   currentRunAmount: {x: 0, y: 0, z: 0}
+  smoothTime: 0.5
+  timeInSecondsMovement: 2.5
   appliedMovement: {x: 0, y: 0, z: 0}
   rotateSpeed: 20
   gravity: -9.8
@@ -8048,8 +8051,6 @@ MonoBehaviour:
   initialJumpVelocity: 0
   maxJumpHeight: 5
   maxJumpTime: 1.25
-  smoothTime: 0.05
-  timeInSecondsMovement: 3
   footStepParticle: {fileID: 7511795166968969599}
   jumpLaunchParticle: {fileID: 1890488535}
 --- !u!143 &909560131
@@ -8103,6 +8104,7 @@ MonoBehaviour:
   - {r: 1, g: 1, b: 1, a: 1}
   - {r: 1, g: 0.8895351, b: 0, a: 1}
   - {r: 1, g: 0.45844075, b: 0, a: 1}
+  currentPunch: {fileID: 0}
 --- !u!1001 &963335074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8464,8 +8466,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cinemachineVirtualCameraFollowTarget: {fileID: 2134672155}
-  topClamp: 30
-  cameraRotationSpeed: 10
+  topClamp: 35
+  cameraRotationSpeed: 20
   bottomClamp: -30
   cameraAngleOverride: 12
 --- !u!1 &1016072606
@@ -12990,6 +12992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isActivated: 0
   maxTimeBetweenRewind: 0.4
+  handRigidbody: {fileID: 0}
   playerPunch: {fileID: 909560132}
   time: 0
   isReturning: 0

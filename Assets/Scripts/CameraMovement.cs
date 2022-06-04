@@ -19,7 +19,7 @@ public class CameraMovement : MonoBehaviour
     public float bottomClamp = -30.0f;
     [Tooltip("Additional degress to override the camera. Useful for fine tuning camera position when locked")]
     public float cameraAngleOverride = 0.0f;
-    // Start is called before the first frame update
+    
     void Start()
     {
        _playerInputs = FindObjectOfType<PlayerInputs>();
