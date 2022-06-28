@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,10 +7,8 @@ public class PlayerPunch : MonoBehaviour
 {
     [SerializeField] private PlayerInputs playerInputs;
     [SerializeField] private HandBehavior[] handsArray;
-    [SerializeField] private Rigidbody[] handsRigidbody = new Rigidbody[2];
     [SerializeField] private float punchPower;
     [SerializeField] private bool isPunchLoading;
-    public bool isPunched;
     [SerializeField] private Transform shootPoint;
 
     [SerializeField] private float[] timerInSecondsPunchPower;
@@ -19,7 +18,17 @@ public class PlayerPunch : MonoBehaviour
     [SerializeField] private Color[] punchTrailColorArray;
 
     [SerializeField] private HandBehavior currentPunch;
-   private void Update()
+    [Header("ROTATE ANIM PARAMETERS")]
+    [SerializeField] private float minRotatePower = 100f, maxRotatePower = 2000f;
+    [SerializeField] private float currentRotatePower = 5f;
+    [SerializeField] private float rotateSpeed;
+
+    private void Start()
+    {
+        currentRotatePower = minRotatePower;
+    }
+
+    private void Update()
     {
         if (playerInputs.isPunchPressed)
         {
@@ -51,11 +60,18 @@ public class PlayerPunch : MonoBehaviour
                 if (!handBehavior.isActivated)
                 {
                     currentPunch = handBehavior;
+                    currentRotatePower = minRotatePower;
+                    currentPunch.meshParent.enabled = false;
+                    var currentPunchTransform = currentPunch.transform;
+                    currentPunchTransform.position += currentPunchTransform.forward;
                     break;
                 }
             }
         }
-      
+        if (currentPunch != null && currentTime >= timerInSecondsPunchPower[0])
+        {
+            LoadPunchAnim();
+        }
         if (currentTime >= timerInSecondsPunchPower[0] && currentTime < timerInSecondsPunchPower[1])
         {
             currentPunchTrailColor = punchTrailColorArray[0];
@@ -72,7 +88,13 @@ public class PlayerPunch : MonoBehaviour
        
         
     }
-    
+
+   private void LoadPunchAnim()
+    {
+        currentRotatePower += rotateSpeed;
+        currentRotatePower = Mathf.Clamp(currentRotatePower, minRotatePower, maxRotatePower);
+        currentPunch.transform.RotateAround(currentPunch.handParent.position, currentPunch.transform.right, currentRotatePower * Time.deltaTime);
+    }
 
     private void PunchThrow(HandBehavior handBehavior)
     {

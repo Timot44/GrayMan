@@ -2031,7 +2031,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237106771}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2129,15 +2129,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc390e0da24a4dd4a845e124f656fed6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  handParent: {fileID: 2049722522}
   isActivated: 0
   maxTimeBetweenRewind: 0.4
   handRigidbody: {fileID: 0}
-  playerPunch: {fileID: 909560132}
   time: 0
   isReturning: 0
   meshRenderer: {fileID: 237106773}
   timeInSecondsForHandsReturn: 0.3
   smoothTimeInSecondsHands: 0.15
+  meshParent: {fileID: 2049722526}
   trailRenderer: {fileID: 1016072608}
 --- !u!1001 &248445351
 PrefabInstance:
@@ -8087,12 +8088,8 @@ MonoBehaviour:
   handsArray:
   - {fileID: 237106777}
   - {fileID: 1523291721}
-  handsRigidbody:
-  - {fileID: 237106776}
-  - {fileID: 1523291719}
   punchPower: 15
   isPunchLoading: 0
-  isPunched: 0
   shootPoint: {fileID: 909560127}
   timerInSecondsPunchPower:
   - 0
@@ -8105,6 +8102,10 @@ MonoBehaviour:
   - {r: 1, g: 0.8895351, b: 0, a: 1}
   - {r: 1, g: 0.45844075, b: 0, a: 1}
   currentPunch: {fileID: 0}
+  minRotatePower: 500
+  maxRotatePower: 2000
+  currentRotatePower: 5
+  rotateSpeed: 4
 --- !u!1001 &963335074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12990,15 +12991,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc390e0da24a4dd4a845e124f656fed6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  handParent: {fileID: 607298368}
   isActivated: 0
   maxTimeBetweenRewind: 0.4
   handRigidbody: {fileID: 0}
-  playerPunch: {fileID: 909560132}
   time: 0
   isReturning: 0
   meshRenderer: {fileID: 1523291717}
   timeInSecondsForHandsReturn: 0.3
   smoothTimeInSecondsHands: 0.15
+  meshParent: {fileID: 607298369}
   trailRenderer: {fileID: 65836980}
 --- !u!1001 &1526190705
 PrefabInstance:
@@ -18513,7 +18515,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049722521}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.7, y: 0, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:

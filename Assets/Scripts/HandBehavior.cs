@@ -6,8 +6,7 @@ using UnityEngine;
 public class HandBehavior : MonoBehaviour
 {
     
-    private Vector3 _handLocalPosition;
-    private Transform _handParent;
+    public Transform handParent;
 
     public bool isActivated;
 
@@ -16,9 +15,6 @@ public class HandBehavior : MonoBehaviour
     private float maxTimeBetweenRewind = 2f;
 
     public Rigidbody handRigidbody;
-
-    [SerializeField] private PlayerPunch playerPunch;
-
     [SerializeField] private float time;
 
     private Vector3 velocity;
@@ -30,13 +26,11 @@ public class HandBehavior : MonoBehaviour
 
     [Header("TIMERS")] [SerializeField] private float timeInSecondsForHandsReturn = 0.45f;
     [SerializeField] private float smoothTimeInSecondsHands = 0.2f;
-
-
+    public MeshRenderer meshParent;
     public TrailRenderer trailRenderer;
     void Awake()
     {
-        _handLocalPosition = gameObject.transform.localPosition;
-        _handParent = transform.parent;
+        handParent = transform.parent;
         _timeBetweenRewindPunch = maxTimeBetweenRewind;
         handRigidbody = GetComponent<Rigidbody>();
         _sphereCollider = GetComponent<SphereCollider>();
@@ -57,7 +51,7 @@ public class HandBehavior : MonoBehaviour
         {
             if (time < timeInSecondsForHandsReturn)
             {
-                gameObject.transform.position = Vector3.SmoothDamp(gameObject.transform.position, _handParent.position, ref velocity, smoothTimeInSecondsHands, 100f, Time.deltaTime);
+                gameObject.transform.position = Vector3.SmoothDamp(gameObject.transform.position, handParent.position, ref velocity, smoothTimeInSecondsHands, 100f, Time.deltaTime);
                 _sphereCollider.enabled = false;
                 time += Time.deltaTime;
             }
@@ -72,11 +66,12 @@ public class HandBehavior : MonoBehaviour
    private IEnumerator ResetPunch()
     {
         var hand = gameObject;
-        meshRenderer.enabled = false;
-        hand.transform.parent = _handParent;
-        hand.transform.localPosition = _handLocalPosition;
+        meshRenderer.enabled = true;
+        meshParent.enabled = true;
+        hand.transform.parent = handParent;
+        hand.transform.localPosition = Vector3.zero;
+        hand.transform.localEulerAngles = Vector3.zero;
         time = 0f;
-        playerPunch.isPunched = false;
         isReturning = false;
         _sphereCollider.enabled = true;
         trailRenderer.emitting = false;
