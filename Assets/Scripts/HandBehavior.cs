@@ -21,13 +21,14 @@ public class HandBehavior : MonoBehaviour
     public bool isReturning;
 
     public MeshRenderer meshRenderer;
-
+    public ParticleSystem vfxMaxPunchCharged;
     private SphereCollider _sphereCollider;
 
     [Header("TIMERS")] [SerializeField] private float timeInSecondsForHandsReturn = 0.45f;
     [SerializeField] private float smoothTimeInSecondsHands = 0.2f;
     public MeshRenderer meshParent;
     public TrailRenderer trailRenderer;
+    
     void Awake()
     {
         handParent = transform.parent;
@@ -51,7 +52,7 @@ public class HandBehavior : MonoBehaviour
         {
             if (time < timeInSecondsForHandsReturn)
             {
-                gameObject.transform.position = Vector3.SmoothDamp(gameObject.transform.position, handParent.position, ref velocity, smoothTimeInSecondsHands, 100f, Time.deltaTime);
+                gameObject.transform.position = Vector3.SmoothDamp(gameObject.transform.position, handParent.position, ref velocity, smoothTimeInSecondsHands, 50f, Time.deltaTime);
                 _sphereCollider.enabled = false;
                 time += Time.deltaTime;
             }
@@ -74,7 +75,6 @@ public class HandBehavior : MonoBehaviour
         time = 0f;
         isReturning = false;
         _sphereCollider.enabled = true;
-        trailRenderer.emitting = false;
         yield break;
     }
 
@@ -84,6 +84,8 @@ public class HandBehavior : MonoBehaviour
         handRigidbody.isKinematic = true;
         isActivated = false;
         isReturning = true;
+        trailRenderer.emitting = false;
+        trailRenderer.Clear();
     }
     
     private void OnCollisionEnter(Collision other)

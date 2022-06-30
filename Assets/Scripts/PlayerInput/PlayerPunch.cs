@@ -13,14 +13,17 @@ public class PlayerPunch : MonoBehaviour
 
     [SerializeField] private float[] timerInSecondsPunchPower;
     [SerializeField] private float currentPunchTimerInSeconds;
-    
+
     [SerializeField] private Color currentPunchTrailColor;
     [SerializeField] private Color[] punchTrailColorArray;
 
     [SerializeField] private HandBehavior currentPunch;
-    [Header("ROTATE ANIM PARAMETERS")]
-    [SerializeField] private float minRotatePower = 100f, maxRotatePower = 2000f;
-    [SerializeField] private float currentRotatePower = 5f;
+
+    [Header("ROTATE ANIM PARAMETERS")] [SerializeField]
+    private float minRotatePower = 800f;
+
+    [SerializeField] private float maxRotatePower = 2000f;
+    [SerializeField] private float currentRotatePower;
     [SerializeField] private float rotateSpeed;
 
     private void Start()
@@ -30,6 +33,7 @@ public class PlayerPunch : MonoBehaviour
 
     private void Update()
     {
+        
         if (playerInputs.isPunchPressed)
         {
             currentPunchTimerInSeconds += Time.deltaTime;
@@ -37,7 +41,6 @@ public class PlayerPunch : MonoBehaviour
             isPunchLoading = true;
             LoadPunch(currentPunchTimerInSeconds);
         }
-        
         
         if (isPunchLoading && !playerInputs.isPunchPressed)
         {
@@ -47,7 +50,6 @@ public class PlayerPunch : MonoBehaviour
                 currentPunchTimerInSeconds = 0;
                 isPunchLoading = false;
             }
-           
         }
     }
 
@@ -68,15 +70,18 @@ public class PlayerPunch : MonoBehaviour
                 }
             }
         }
+
         if (currentPunch != null && currentTime >= timerInSecondsPunchPower[0])
         {
             LoadPunchAnim();
+            UpdatePunchTrailColor(currentPunchTrailColor, currentPunch);
         }
+
         if (currentTime >= timerInSecondsPunchPower[0] && currentTime < timerInSecondsPunchPower[1])
         {
             currentPunchTrailColor = punchTrailColorArray[0];
         }
-        
+
         else if (currentTime >= timerInSecondsPunchPower[1] && currentTime < timerInSecondsPunchPower[2])
         {
             currentPunchTrailColor = punchTrailColorArray[1];
@@ -85,24 +90,24 @@ public class PlayerPunch : MonoBehaviour
         {
             currentPunchTrailColor = punchTrailColorArray[2];
         }
-       
-        
     }
 
-   private void LoadPunchAnim()
+    private void LoadPunchAnim()
     {
         currentRotatePower += rotateSpeed;
         currentRotatePower = Mathf.Clamp(currentRotatePower, minRotatePower, maxRotatePower);
-        currentPunch.transform.RotateAround(currentPunch.handParent.position, currentPunch.transform.right, currentRotatePower * Time.deltaTime);
+        currentPunch.transform.RotateAround(currentPunch.handParent.position, currentPunch.transform.right,
+            currentRotatePower * Time.deltaTime);
+        if (currentRotatePower >= maxRotatePower && !currentPunch.vfxMaxPunchCharged.gameObject.activeSelf)
+            currentPunch.vfxMaxPunchCharged.gameObject.SetActive(true);
     }
 
     private void PunchThrow(HandBehavior handBehavior)
     {
-        if (!handBehavior.isReturning && handBehavior)
+        if (!handBehavior.isReturning)
         {
             StartCoroutine(StartPunchCoroutine(handBehavior, handBehavior.handRigidbody));
         }
-        
     }
 
     private IEnumerator StartPunchCoroutine(HandBehavior handBehavior, Rigidbody handRigidbody)
@@ -110,18 +115,17 @@ public class PlayerPunch : MonoBehaviour
         handRigidbody.isKinematic = false;
         handRigidbody.transform.parent = null;
         handRigidbody.AddForce(shootPoint.forward * punchPower, ForceMode.Impulse);
+        handBehavior.vfxMaxPunchCharged.gameObject.SetActive(false);
         handBehavior.isActivated = true;
         handBehavior.meshRenderer.enabled = true;
-        UpdatePunchTrailColor(currentPunchTrailColor, handBehavior);
         currentPunch = null;
         yield break;
     }
 
     private void UpdatePunchTrailColor(Color color, HandBehavior handBehavior)
     {
-        handBehavior.trailRenderer.emitting = true;
+        if (!handBehavior.trailRenderer.emitting) handBehavior.trailRenderer.emitting = true;
         handBehavior.trailRenderer.startColor = color;
         handBehavior.trailRenderer.endColor = color;
-
     }
 }
