@@ -68,7 +68,7 @@ public class HandBehavior : MonoBehaviour
     {
         var hand = gameObject;
         meshRenderer.enabled = true;
-        meshParent.enabled = true;
+        meshParent.enabled = false;
         hand.transform.parent = handParent;
         hand.transform.localPosition = Vector3.zero;
         hand.transform.localEulerAngles = Vector3.zero;

@@ -118,6 +118,7 @@ public class PlayerPunch : MonoBehaviour
         handBehavior.vfxMaxPunchCharged.gameObject.SetActive(false);
         handBehavior.isActivated = true;
         handBehavior.meshRenderer.enabled = true;
+        handBehavior.meshParent.enabled = true;
         currentPunch = null;
         yield break;
     }
