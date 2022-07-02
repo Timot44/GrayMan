@@ -68,7 +68,6 @@ public class HandBehavior : MonoBehaviour
     {
         var hand = gameObject;
         meshRenderer.enabled = true;
-        meshParent.enabled = false;
         hand.transform.parent = handParent;
         hand.transform.localPosition = Vector3.zero;
         hand.transform.localEulerAngles = Vector3.zero;
@@ -82,8 +81,8 @@ public class HandBehavior : MonoBehaviour
     {
         handRigidbody.velocity = Vector3.zero;
         handRigidbody.isKinematic = true;
-        isActivated = false;
         isReturning = true;
+        isActivated = false;
         trailRenderer.emitting = false;
         trailRenderer.Clear();
     }

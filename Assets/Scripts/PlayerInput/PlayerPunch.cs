@@ -33,15 +33,29 @@ public class PlayerPunch : MonoBehaviour
 
     private void Update()
     {
-        
         if (playerInputs.isPunchPressed)
         {
             currentPunchTimerInSeconds += Time.deltaTime;
             currentPunchTimerInSeconds = Mathf.Clamp(currentPunchTimerInSeconds, 0, Mathf.Infinity);
             isPunchLoading = true;
+            if (!currentPunch)
+            {
+                foreach (var handBehavior in handsArray)
+                {
+                    if (!handBehavior.isActivated)
+                    {
+                        currentPunch = handBehavior;
+                        currentRotatePower = minRotatePower;
+                        handBehavior.meshParent.enabled = false;
+                        var currentPunchTransform = currentPunch.transform;
+                        currentPunchTransform.position += currentPunchTransform.forward;
+                        break;
+                    }
+                }
+            }
             LoadPunch(currentPunchTimerInSeconds);
         }
-        
+    
         if (isPunchLoading && !playerInputs.isPunchPressed)
         {
             if (currentPunch != null)
@@ -52,24 +66,10 @@ public class PlayerPunch : MonoBehaviour
             }
         }
     }
-
+    
     private void LoadPunch(float currentTime)
     {
-        if (!currentPunch)
-        {
-            foreach (var handBehavior in handsArray)
-            {
-                if (!handBehavior.isActivated)
-                {
-                    currentPunch = handBehavior;
-                    currentRotatePower = minRotatePower;
-                    currentPunch.meshParent.enabled = false;
-                    var currentPunchTransform = currentPunch.transform;
-                    currentPunchTransform.position += currentPunchTransform.forward;
-                    break;
-                }
-            }
-        }
+       
 
         if (currentPunch != null && currentTime >= timerInSecondsPunchPower[0])
         {
