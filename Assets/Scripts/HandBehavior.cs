@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class HandBehavior : MonoBehaviour
@@ -19,7 +20,7 @@ public class HandBehavior : MonoBehaviour
 
     private Vector3 velocity;
     public bool isReturning;
-
+    public bool isReady = true;
     public MeshRenderer meshRenderer;
     public ParticleSystem vfxMaxPunchCharged;
     private SphereCollider _sphereCollider;
@@ -28,7 +29,9 @@ public class HandBehavior : MonoBehaviour
     [SerializeField] private float smoothTimeInSecondsHands = 0.2f;
     public MeshRenderer meshParent;
     public TrailRenderer trailRenderer;
-    
+
+    private static float waitForSecondsResetPunchTimer = 0.15f;
+    private WaitForSeconds _waitForSecondsResetPunch = new WaitForSeconds(waitForSecondsResetPunchTimer);
     void Awake()
     {
         handParent = transform.parent;
@@ -74,7 +77,8 @@ public class HandBehavior : MonoBehaviour
         time = 0f;
         isReturning = false;
         _sphereCollider.enabled = true;
-        yield break;
+        yield return _waitForSecondsResetPunch;
+        isReady = true;
     }
 
     private void ReturnPunch()

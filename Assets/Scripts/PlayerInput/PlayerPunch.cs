@@ -25,7 +25,7 @@ public class PlayerPunch : MonoBehaviour
     [SerializeField] private float maxRotatePower = 2000f;
     [SerializeField] private float currentRotatePower;
     [SerializeField] private float rotateSpeed;
-
+    
     private void Start()
     {
         currentRotatePower = minRotatePower;
@@ -33,28 +33,14 @@ public class PlayerPunch : MonoBehaviour
 
     private void Update()
     {
-        if (playerInputs.isPunchPressed)
+        if (playerInputs.isPunchPressed && CheckIfPunchReady())
         {
             currentPunchTimerInSeconds += Time.deltaTime;
             currentPunchTimerInSeconds = Mathf.Clamp(currentPunchTimerInSeconds, 0, Mathf.Infinity);
             isPunchLoading = true;
-            if (!currentPunch)
-            {
-                foreach (var handBehavior in handsArray)
-                {
-                    if (!handBehavior.isActivated)
-                    {
-                        currentPunch = handBehavior;
-                        currentRotatePower = minRotatePower;
-                        handBehavior.meshParent.enabled = false;
-                        var currentPunchTransform = currentPunch.transform;
-                        currentPunchTransform.position += currentPunchTransform.forward;
-                        break;
-                    }
-                }
-            }
             LoadPunch(currentPunchTimerInSeconds);
         }
+        
     
         if (isPunchLoading && !playerInputs.isPunchPressed)
         {
@@ -66,10 +52,37 @@ public class PlayerPunch : MonoBehaviour
             }
         }
     }
-    
+
+    private bool CheckIfPunchReady()
+    {
+        foreach (var handBehavior in handsArray)
+        {
+            if (handBehavior.isReady)
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     private void LoadPunch(float currentTime)
     {
-       
+        if (!currentPunch)
+        {
+            foreach (var handBehavior in handsArray)
+            {
+                if (handBehavior.isReady)
+                {
+                    currentPunch = handBehavior;
+                    var currentPunchTransform = currentPunch.transform;
+                    currentRotatePower = minRotatePower;
+                    handBehavior.meshParent.enabled = false;
+                    currentPunchTransform.position += currentPunchTransform.forward;
+                    break;
+                }
+            }
+        }
 
         if (currentPunch != null && currentTime >= timerInSecondsPunchPower[0])
         {
@@ -119,6 +132,7 @@ public class PlayerPunch : MonoBehaviour
         handBehavior.isActivated = true;
         handBehavior.meshRenderer.enabled = true;
         handBehavior.meshParent.enabled = true;
+        handBehavior.isReady = false;
         currentPunch = null;
         yield break;
     }
